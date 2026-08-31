@@ -1,0 +1,29 @@
+PS C:\Users\Nishanth Sappa\Downloads\toucan-springboot-starter\toucan-springboot-starter> .\mvnw.cmd clean test
+[INFO] Scanning for projects...
+[INFO] ------------------< com.example:transaction-starter >-------------------
+[INFO] Building transaction-starter 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] --- clean:3.4.1:clean (default-clean) @ transaction-starter ---
+[INFO] --- resources:3.3.1:resources (default-resources) @ transaction-starter ---
+[INFO] --- compiler:3.14.0:compile (default-compile) @ transaction-starter ---
+[INFO] Compiling 10 source files with javac [debug parameters release 17] to target\classes
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ transaction-starter ---
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[INFO] --- surefire:3.5.3:test (default-test) @ transaction-starter ---
+[INFO] Running com.example.transactionstarter.TransactionStarterApplicationTests
+
+:: Spring Boot ::                (v3.5.5)
+
+2026-08-31T17:39:34.761+05:30  INFO 25460 --- [           main] c.e.t.TransactionStarterApplicationTests : Starting TransactionStarterApplicationTests using Java 17.0.15
+2026-08-31T17:39:36.638+05:30  INFO 25460 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning. Found 1 JPA repository interface.
+2026-08-31T17:39:42.367+05:30  INFO 25460 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:transactions'
+2026-08-31T17:39:42.610+05:30  INFO 25460 --- [           main] c.e.t.TransactionStarterApplicationTests : Started TransactionStarterApplicationTests
+
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.528 s
+[INFO] Finished at: 2026-08-31T17:39:45+05:30
+[INFO] ------------------------------------------------------------------------
